@@ -14,4 +14,4 @@ Please write a program in the language of your choice (C or GO prefered) to comp
 - For each device, calculate sum of the sensor payloads
 - Reformat the data so that it satisfies the schema in `exercise-01/output-schema/schema.json`
 - Order the reformatted data by `Name` (ascending)
-- Write the reformatted data to a new file in `JSON` format. Example output is provided in `exercise-01/output-example/example.json`
+- Write the reformatted data to a new file in `JSON` format
