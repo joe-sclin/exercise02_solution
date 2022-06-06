@@ -1,0 +1,11 @@
+{
+  "Devices": [
+    {
+      "Name": "Accelerometer-device",
+      "Type": "OPC-UA",
+      "Info": "An OPC-UA device uuid:31bd12a2-e583-11ec-8fea-0242ac120002, used to read an accelerometer",
+      "Uuid": "31bd12a2-e583-11ec-8fea-0242ac120002",
+      "PayloadTotal": 94
+    },
+  ]
+}
