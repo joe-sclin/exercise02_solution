@@ -21,7 +21,7 @@ Please write a program in the language of your choice (C or GO prefered) to comp
 Please write a program in the language of your choice (C or GO prefered) to complete the following tasks:
 
 - Parse the data from `exercise-02/data/data.json`
-- Discard the devices where the 'timestamp' value is before the current time. The timestamps are in `UNIX` format
-- Get the total of all 'value' entries, values are base64 encoded integers
-- Parse the uuid from the description field of each entry
-- Output the values total and the list of uuids in the format described by the JSON schema
+- Discard the devices where the `timestamp` value is before the current time. The timestamps are in `UNIX` format
+- Get the total of all `value` entries, values are `base64` encoded integers
+- Parse the uuid from the `info` field of each entry
+- Output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file
