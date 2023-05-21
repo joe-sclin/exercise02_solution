@@ -1,27 +1,21 @@
-# IoTech Coding Exercises
+# Solution to Exercise 02
 
-Please provide the completed solution to your exercise as a public Github repository. It should include:
-- Your solution
-- A readme instructing the user how to build and run your solution. It must build on linux, other platforms are optional
-- (optional) Any addtional material e.g. tests, dockerfile
--
-## Exercise 01
+### Prerequisites
+- C++ compiler (e.g., g++)
+- JSON library (https://github.com/nlohmann/json)
+- Base64 library (https://github.com/ReneNyffenegger/cpp-base64)
 
-Please write a program in the language of your choice (C or GO prefered) to complete the following tasks:
+### Building the program
+- Clone / download the source code from repository
+- Change directory to directory containing source code
+`cd <path>`
+- Compile the program using C++ compiler to generate executable file named "solution"
+`g++ -std=c++17 -o solution solution.cpp`
 
-- Parse the data in `exercise-01/data/devices.json`
-- Extract the `uuid` from the `Info` field
-- For each device, calculate sum of the sensor payloads
-- Reformat the data so that it satisfies the schema in `exercise-01/output-schema/schema.json`
-- Order the reformatted data by `Name` (ascending)
-- Write the reformatted data to a new file in `JSON` format
-
-## Exercise 02
-
-Please write a program in the language of your choice (C or GO prefered) to complete the following tasks:
-
-- Parse the data from `exercise-02/data/data.json`
-- Discard the devices where the `timestamp` value is before the current time. The timestamps are in `UNIX` format
-- Get the total of all `value` entries, values are `base64` strings containing integer values
-- Parse the uuid from the `info` field of each entry
-- Output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file
+### Running the program
+- Checking exists of required input file
+    - `data/data.json`: input JSON file
+    - `output-schema/schema.json`: output JSON schema
+- Running this command to execute the program
+`./solution`
+- Result is in `output.json` in the same directory
